@@ -1,0 +1,11 @@
+import nltk
+text = 'I am a sentence. I am another sentence'
+tokens = nltk.word_tokenize(text);
+words = set(tokens)
+def diveristy(text):
+	tokens = nltk.word_tokenize(text);
+	words = set(tokens);
+	return len(words)/len(text);
+
+
+	
